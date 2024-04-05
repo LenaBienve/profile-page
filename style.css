@@ -1,0 +1,185 @@
+/* Write some CSS below */
+
+body {
+    background-color: white;
+    color: #000000e2;
+    font-size: 18px;
+    font-family: "Teko", light;
+    text-align: center;
+}
+
+.profile-card-text {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    font-family: "fira sans", bold;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-corail {
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 153, 90);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.btn-corail:hover {
+    background-color: white;
+    color: rgb(255, 153, 90);
+}
+
+
+
+.profile-card {
+    box-shadow: 0 10px 20px rgb(255, 153, 90);
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 5px;
+    width: 600px;
+}
+
+.formation-card {
+    box-shadow: 0 10px 20px rgb(255, 153, 90);
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 5px;
+    max-width: 600px; 
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    height : 150px;
+    object-fit: cover;
+}
+
+  
+.formation-grid {
+    display: flex; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px; 
+}
+
+
+.formation-school {
+    width: 30%; 
+    margin: 10px; 
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+    background-color: #fff; 
+  }
+  
+
+
+.list-inline li {
+    display: inline;
+    font-size: 45px;
+    padding: 0px;
+}
+ 
+.list-inline i {
+    color: rgb(255, 153, 90) ;
+    margin: 30px;
+}
+ 
+ul {
+    list-style-type: none;
+    padding-left: 0%;
+    text-decoration: none;
+}
+i:hover {
+    color: #1e1006;
+    opacity: 70%;
+}
+
+.list-inline a {
+    text-decoration: none;
+}
+
+.effect {
+    transition: 0.5s;
+}
+
+.effect:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+    .experience-card {
+        box-shadow: 0 10px 20px rgb(255, 153, 90);
+        padding: 40px;
+        margin: 40px auto;
+        border-radius: 5px;
+        max-width: 600px; 
+        flex-wrap: wrap;
+        text-align: center;
+}
+
+.double-card {
+    display: flex; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+#ecole {
+    margin-right: 10px;
+}
+
+#travail {
+    margin-left: 10px;
+}
+
+.hobbies-card {
+    box-shadow: 0 10px 20px rgb(255, 153, 90);
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 5px;
+    width: 600px;
+    align-items: center;
+}
+
+.hobbies-grid {
+    display: flex; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+}
+
+.formation-hobbies {
+    width: 30%; 
+    margin: 10px; 
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+    background-color: #fff; 
+  }
+  
+  .touch {
+    transition: 0.5s;
+}
+
+.touch:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
